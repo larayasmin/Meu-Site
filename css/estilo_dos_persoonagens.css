@@ -44,27 +44,41 @@ section{
 }
 section div{
     min-width: 300px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     color: red;
+}
+section div p{
+    color: black;
+    font-size: x-large;
 }
 .descrição{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 50%;
 }
 
 /*scroll*/
 main{
-    height: 10vh;
-   width: 100%;
+   height: 10vh;
    display: flex;
    gap: 10px;
+   
 }
 .scrol_personagens{
     height: 100%;
     width: 200px;
-    background-color: red;
+    text-align: center;
+    border: 5px solid rgba(0, 0, 0, 0.5);
 }
+
+main img{
+    transition: transform 0.3s ease;
+}
+main img:hover{
+    transform: scale(1.2); 
+}
+
 /*rodape*/
 .criadores {
   height: 20%;
@@ -73,9 +87,8 @@ main{
   justify-content: center;
   align-items: end;
   color: white;
-  background-image: url(Chao\ op\ 3.png);
+  background-image: url(img/Chao.png);
   background-position: top;
   background-size: contain;
   background-repeat: repeat;
-
 }

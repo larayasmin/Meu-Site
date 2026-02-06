@@ -21,16 +21,13 @@
 
 <section>
     <div class="descrição">
-        <p>
-            
-Goku
-Protagonista da história, um Saiyajin criado na Terra que ama lutar e superar seus próprios limites. De coração puro e espírito inocente, vive em busca de adversários mais fortes para evoluir, enquanto protege o planeta e seus amigos de qualquer ameaça.
+        <p>Tenshinhan (Teijinhan)
+Guerreiro humano descendente da raça dos três-olhos, disciplinado e focado nas artes marciais. Sério e determinado, dedica sua vida ao treinamento constante para proteger a Terra, usando técnicas únicas e grande força de vontade.
 
-
-        </p>
+</p>
     </div>
     <div class="personagem">
-        <img src="css/img/goku ultra instito dominado.png" alt="goku">
+        <img src="css/img/teijihan.png" alt="">
     </div>
 </section>
 <main>
@@ -45,6 +42,7 @@ Protagonista da história, um Saiyajin criado na Terra que ama lutar e superar s
     <div class="scrol_personagens"><a href="teijihan.html"><img src="css/img/teijihan pixel.png" alt="Goku" height="100%"></a></div>
     <div class="scrol_personagens"><a href="vegeta.html"><img src="css/img/vegeta pixel.png" alt="Goku" height="100%"></a></div>
 </main>
+ 
     <footer>
         <div class="criadores">
             <p>
