@@ -30,7 +30,7 @@ ul {
 
 
 #azul {
-    background-color: red;
+    background-color: #F28705;
     color: white;
     padding: 10px;
     text-decoration: none;
@@ -40,20 +40,21 @@ ul {
 
 /*corpo da pagina*/
 section {
-    min-height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
+
 }
 
 section div {
     min-width: 300px;
-    background-color: rgb(255, 255, 255);
     color: red;
 }
 
 section div p {
-    color: black;
+    color: white;
     font-size: x-large;
+    
 }
 
 .descrição {
@@ -61,21 +62,23 @@ section div p {
     align-items: center;
     justify-content: center;
     width: 50%;
+    
 }
-
+.personagem img{
+    margin-top: 40px;
+}
 /*scroll*/
 main {
     height: 10vh;
     display: flex;
     gap: 10px;
-
+    background: linear-gradient(to bottom, #1e90ff 0%, #6ec6ff 60%, #bfe9ff 100%);  
 }
 
 .scrol_personagens {
     height: 100%;
     width: 200px;
     text-align: center;
-    border: 5px solid rgba(0, 0, 0, 0.5);
 }
 
 main img {
@@ -85,7 +88,6 @@ main img {
 main img:hover {
     transform: scale(1.2);
 }
-
 /*rodape*/
 .criadores {
     height: 20%;
@@ -98,4 +100,27 @@ main img:hover {
     background-position: top;
     background-size: contain;
     background-repeat: repeat;
+}
+
+/* Fundos */
+.fundo-goku {
+    background: radial-gradient(circle at 30% 40%, #ff7a00 0%, #ff3c00 45%, #b31200 100%);
+  }
+.fundo-android16 {
+  background: radial-gradient(circle at 30% 40%, #6ddc6d 0%, #2e8b57 45%, #0f3d26 100%);
+}
+.fundo-vegeta {
+  background: radial-gradient(circle at 30% 40%, #4db8ff 0%, #007bff 45%, #001f66 100%);
+}
+.fundo-boo {
+  background: radial-gradient(circle at 30% 40%, #ff9acb 0%, #ff4da6 45%, #b30059 100%);
+}
+.fundo-bills {
+  background: radial-gradient(circle at 30% 40%, #b46cff 0%, #7a2cff 45%, #3d007a 100%);
+}
+.fundo-piccolo {
+  background: radial-gradient(circle at 30% 40%, #3bbf5e 0%, #137a2f 45%, #052e12 100%);
+}
+.fundo-tenshinhan {
+  background: radial-gradient(circle at 30% 40%, #ffe866 0%, #ffc400 45%, #a67c00 100%);
 }

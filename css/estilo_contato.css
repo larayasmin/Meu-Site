@@ -29,7 +29,7 @@ ul {
 
 
 #vermelhor {
-    background-color: red;
+    background-color: #F28705;
     color: white;
     padding: 10px;
     text-decoration: none;
@@ -45,26 +45,28 @@ label {
 
 /*divisões*/
 .container {
-    background-color: white;
+    margin: 0px;
+    background: radial-gradient(circle at 30% 40%, #ff4d4d 0%, #cc0000 45%, #5c0000 100%);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     height: 76vh;
-    margin-top: 20px;
 }
 
 form {
     width: 50%;
     padding: 20px;
+    background-color: white;
     height: 40vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border: 1px solid rgb(148, 148, 148);
     border-radius: 10px;
 }
-
+h1{
+    color: white;
+}
 /*botões*/
 input {
     margin-bottom: 20px;
@@ -89,7 +91,7 @@ input {
 #botão {
     padding: 15px;
     background-color: green;
-    max-width: 10%;
+    min-width: 10%;
     border: 0;
     color: white;
     border-radius: 20px;
@@ -98,8 +100,8 @@ input {
 
 /*rodape*/
 .criadores {
-    height: 60px;
-    margin-top: 20px;
+    height: 80px;
+    margin-top: 0px;
     width: 100%;
     display: flex;
     justify-content: center;
