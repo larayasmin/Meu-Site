@@ -96,7 +96,7 @@ main img:hover {
     justify-content: center;
     align-items: end;
     color: white;
-    background-image: url(img/Chao.png);
+    background-image: url(./img/chao.jpeg);
     background-position: top;
     background-size: contain;
     background-repeat: repeat;
